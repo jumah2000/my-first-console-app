@@ -12,3 +12,4 @@ C:\Users\DELL\RiderProjects\my first console app\obj\Debug\net8.0\refint\my firs
 C:\Users\DELL\RiderProjects\my first console app\obj\Debug\net8.0\my first console app.pdb
 C:\Users\DELL\RiderProjects\my first console app\obj\Debug\net8.0\my first console app.genruntimeconfig.cache
 C:\Users\DELL\RiderProjects\my first console app\obj\Debug\net8.0\ref\my first console app.dll
+C:\Users\DELL\RiderProjects\my first console app\obj\Debug\net8.0\my first console app.sourcelink.json

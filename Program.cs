@@ -1,14 +1,12 @@
-﻿//Console.WriteLine("Hello World");
-//Console.WriteLine("My name is Jumah");
+﻿//variable declation (string, int, double, bool)
+String name = "Aaliyah";
+int age = 18;
+double  height = 55.6;
+bool   isStudent = true;
 
-//Variable Declaration(int, double, string, boot)
+/////////////////////////////
+//string interpolation
+Console.WriteLine($"My name is {name}, i am {age} years old, my height is {height}, and It is {isStudent} that i am a graduate.");
 
-int age = 50;
-string name = "Jumah";
-double height = 34.5;
-bool ispresent = false;
-/////////////////////////
-Console.WriteLine(name + " " + height);
-Console.WriteLine($"{name} {height}");
-Console.WriteLine($"my name  is {name}, i am {age} years old. my height is {height}. are you a christain: {ispresent}");
-Console.WriteLine("my name is " + name + "i am " + age + " years old. my height is " + height + ". are you a christian: " + ispresent);
+//string concatination
+Console.WriteLine("my name is "  + name + ", i am " + age + " years old, my height is " + height  + ", and it is " + isStudent + " that i am a graduate.");
