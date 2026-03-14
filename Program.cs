@@ -168,7 +168,7 @@ else
 }*/
 
 
-bool paidfees = true;
+/*bool paidfees = true;
 bool hasIcard = true;
 bool hasdonematric = false;
 
@@ -179,7 +179,7 @@ if (paidfees && hasIcard && hasdonematric)
 else
 {
  Console.WriteLine("You cannot enter");
-}
+}*/
 
 
 
@@ -326,3 +326,245 @@ else
 {
  Console.WriteLine("Not Allowed");
 }*/
+
+// 14th - March - 2026
+// Operator => !. 
+
+/*bool passedExam = false;
+if (!passedExam)
+{
+ Console.WriteLine("you do not pass the exam");
+}
+else
+{
+ Console.WriteLine("you pass the exam");
+ 
+}*/
+
+/*A student can borrow a book only if: - They have paid library fees AND have a valid ID -
+ AND they are a staff member AND the book is reserved*/
+ 
+
+// i want a result where student can borrow
+ 
+/*bool paidFees = true;
+bool hasIDCard = true;
+bool isStaff = false;
+bool bookReserved = false;
+
+bool firstCondition = paidFees && hasIDCard;
+bool secondCondition = isStaff  && bookReserved;
+
+if (paidFees && hasIDCard && !isStaff && !bookReserved)
+{
+ Console.WriteLine("A student can borrow a book");
+}
+else
+{
+ Console.WriteLine("A student can not borrow a book");
+}*/
+
+
+/*
+int number = 3;
+
+if (number >= 10 && number <= 20)
+{
+ Console.WriteLine("number is within range");
+}
+else
+{
+ Console.WriteLine("number is not within range");
+ 
+}
+
+*/
+// LOOPS 
+// For-loop,  while-loop, do-while
+
+// a while loop repeats a block of code as long as the condition is true , Example:
+
+/*
+while (condition)
+{
+ run your code 
+}
+*/
+
+// Compilation Error and Run-Time Error
+
+/*int i = 1;
+
+while (i <= 5)
+{
+ Console.WriteLine(i);
+ i++; // incrementing 
+}*/
+// 1 ,2 ,3 ,4 ,5
+/*this i++ means i = i +1 */
+
+
+
+// Do-while
+// 1) code run first
+//2) then checks the codition if true
+// 3) if true, it repeats
+
+/*int i = 1;
+
+do
+{
+ Console.WriteLine(i);
+ i++;
+} while (i <= 5);*/
+
+// For Loop
+// This is used when you know the number of times you want to loop
+
+/*for (initialization, condition, update)
+{
+  code to run
+}*/
+
+/*for (int i = 1; i <= 5; i++)
+{
+ Console.WriteLine(i);
+}*/
+
+
+//For Barakah, Lekan , jumah use while loop to print 35-77 
+//for ademola and mariam use do-while to print 99-107
+// for Muheeb and fatimah use for loop to print 125-176
+
+// Print even numbers from 1 to 20
+/*for (int i = 0; i < 20; i++)
+{
+ if (i % 2 != 0)
+ {
+  Console.WriteLine(i);
+ }
+}*/
+
+//Arrays 
+// Arrays is used to store multiple variables of same data type in one variable 
+
+/*int num1 = 10;
+int num2 = 20;
+int num3 = 30;*/
+
+//int[] numbers = { 10, 20, 30 }; // array of numbers 
+
+/*
+for (int i = 0; i < numbers.Length; i++)
+{
+ Console.WriteLine(numbers[i]);
+}
+*/
+
+/*
+string student1 = "Lekan";
+string student2 = "Mariam";
+string student3 = "Jumah";
+
+string[] students = { "lekan", "mariam", "muheeb", "fatimah", "Pedro", "barakah" };*/ // Array of students
+
+//Console.WriteLine($"Fatimah name to be printed\n..Printout result= {students[3]}"); // fatimah
+//Console.WriteLine($"Pedro name to be printed\n..Printout result= {students[4]}"); // pedro
+
+
+// indexing starts from 0 
+// Length starts from 1
+
+
+
+
+ 
+//Console.WriteLine(students.Length); this prints the lenght of the students 
+
+/*
+for (int i = 0; i < students.Length; i++)
+{
+ Console.WriteLine( students[i]);
+}
+*/
+
+// Formatting to have student number 
+
+//Console.WriteLine(students.Length); this prints the lenght of the students 
+
+/*for (int i = 0; i < students.Length; i++)
+{
+ Console.WriteLine($"Student{i + 1} : {students[i]}");
+}*/
+
+// we acheived
+/*Student1 : lekan
+Student2 : mariam
+Student3 : muheeb
+Student4 : fatimah
+Student5 : Pedro
+Student6 : barakah*/
+
+
+
+
+//int[] numbers = { 10, 20, 30 }; // array of numbers 
+
+/*
+for (int i = 0; i < numbers.Length; i++)
+{
+ Console.WriteLine(numbers[i]);
+}
+*/
+
+// 10
+// 20
+// 30
+// 40
+
+
+// Using loop to Add numbers together
+
+/*int[] numbers = { 10, 20, 30, 40 }; // array of numbers 
+
+int sum = 0; // base number we want to use to perform add operation
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    sum = sum + numbers[i];
+    sum += numbers[i]
+    // sum = 0 + (numbers[0]) 10 = 10 
+    // sum = 10 + (numbers[1]) 20 = 30
+    // sum = 30 + (number[2]) 30 = 60
+    // sum = 60 + (number[3]) 40 = 100
+    // sum = 100
+    
+}
+
+Console.WriteLine($"Sum of all the numbers = {sum}");*/
+
+// Using Loop to multiply together
+/*int[] numb = { 2, 3, 4, 5, 6 };
+
+int mult = 1;
+
+for (int i = 0; i < numb.Length; i++)
+{
+  mult = mult * numb[i];
+}
+Console.WriteLine($"Multiplication of all the numbers = {mult}");*/
+
+
+// Lets Build Multiplication table 
+
+/*int multiplicationTable = 6;
+
+for (int i = 1; i <= 12; i++)
+{
+ Console.WriteLine($"{multiplicationTable} X {i} = {multiplicationTable * i}");
+}*/
+
+// 2 X 1 = 2
+// 2 X 2 = 4
+
+
