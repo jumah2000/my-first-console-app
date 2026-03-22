@@ -1,4 +1,5 @@
-﻿//Console.WriteLine("Hello World");
+﻿/*
+//Console.WriteLine("Hello World");
 //Console.WriteLine("My name is Jumah");
 
 //Variable Declaration(int, double, string, boot)
@@ -8,7 +9,7 @@ using System.ComponentModel.Design;
 /*int age = 50;
 string name = "Jumah";
 double height = 34.5;
-bool ispresent = false;*/
+bool ispresent = false;#1#
 /////////////////////////
 //Console.WriteLine(name + " " + height);
 //Console.WriteLine($"{name} {height}");
@@ -20,7 +21,7 @@ decimal money = 100.35m;
 float temperature = 30.5f;
 char grade = 'f';
 long pop = 2147483647;
-*/
+#1#
 
 //int , memory 4byte, whole number e.g 10, 20 ,30
 //float, memory 4byte, decimal number (less precision) e.g 10.5f, 20.5f
@@ -92,7 +93,7 @@ long pop = 2147483647;
  //int jk = cd * de;  // conventional way
   cd *= de;
  Console.WriteLine($"New balance = {cd}");
- */
+ #1#
 
  //march 8 2026
 //comparism operator
@@ -123,7 +124,7 @@ else if (a < b)
 else
 {
  Console.WriteLine("Tutor said what fatimah said was wrong");
-}*/
+}#1#
 
 
 
@@ -146,7 +147,7 @@ else if (score >= 50)
 else 
 {
  Console.WriteLine("Fail");
-}*/
+}#1#
 
 // Logical operators
 // && , means "AND" , this binds true and true values
@@ -165,7 +166,7 @@ if (score >= 50 && score <= 100)
 else
 {
  Console.WriteLine("failed");
-}*/
+}#1#
 
 
 /*bool paidfees = true;
@@ -179,7 +180,7 @@ if (paidfees && hasIcard && hasdonematric)
 else
 {
  Console.WriteLine("You cannot enter");
-}*/
+}#1#
 
 
 
@@ -198,7 +199,7 @@ else
 {
  Console.WriteLine("You are not qualified for discount");
 }
-*/
+#1#
 
 
 // combining the && and ||
@@ -208,7 +209,7 @@ else
 bool hasIcard = true;
 bool hasdonematric = false;
 bool hasdoneRegistartion = false;
-bool isCitizen = false;*/
+bool isCitizen = false;#1#
 
 /*if ((paidfees && hasIcard) || hasdonematric)
 {
@@ -217,7 +218,7 @@ bool isCitizen = false;*/
 else
 {
  Console.WriteLine("Student cannot enter exam hall");
-}*/
+}#1#
 
 //2
 /*if ((hasdoneRegistartion && paidfees) || isCitizen)
@@ -227,7 +228,7 @@ else
 else
 {
  Console.WriteLine("Access Denied");
-}*/
+}#1#
 
 // 3
 
@@ -240,7 +241,7 @@ else
 {
  Console.WriteLine("Student is not verified");
 }
-*/
+#1#
 
 
 //4
@@ -255,7 +256,7 @@ else
 {
  Console.WriteLine("Student not cleared");
 
-}*/
+}#1#
 
 //5 
 
@@ -269,7 +270,7 @@ else
 {
  Console.WriteLine("Student cannot write the final exam");
 }
-*/
+#1#
 
 // 6
 
@@ -280,7 +281,7 @@ else
 else
 {
  Console.WriteLine("Student not verified");
-}*/
+}#1#
 
 // 7
 
@@ -291,7 +292,7 @@ else
 else
 {
  Console.WriteLine("Student not fully cleared");
-}*/
+}#1#
 
 // 8
 
@@ -302,7 +303,7 @@ else
 else
 {
  Console.WriteLine("Rejected");
-}*/
+}#1#
 
 // 9
 
@@ -313,7 +314,7 @@ else
 else
 {
  Console.WriteLine("Student not allowed");
-}*/
+}#1#
 
 // 10
 
@@ -325,7 +326,7 @@ else
 else
 {
  Console.WriteLine("Not Allowed");
-}*/
+}#1#
 
 // 14th - March - 2026
 // Operator => !. 
@@ -339,10 +340,10 @@ else
 {
  Console.WriteLine("you pass the exam");
  
-}*/
+}#1#
 
 /*A student can borrow a book only if: - They have paid library fees AND have a valid ID -
- AND they are a staff member AND the book is reserved*/
+ AND they are a staff member AND the book is reserved#1#
  
 
 // i want a result where student can borrow
@@ -362,7 +363,7 @@ if (paidFees && hasIDCard && !isStaff && !bookReserved)
 else
 {
  Console.WriteLine("A student can not borrow a book");
-}*/
+}#1#
 
 
 /*
@@ -378,7 +379,7 @@ else
  
 }
 
-*/
+#1#
 // LOOPS 
 // For-loop,  while-loop, do-while
 
@@ -389,7 +390,7 @@ while (condition)
 {
  run your code 
 }
-*/
+#1#
 
 // Compilation Error and Run-Time Error
 
@@ -399,9 +400,9 @@ while (i <= 5)
 {
  Console.WriteLine(i);
  i++; // incrementing 
-}*/
+}#1#
 // 1 ,2 ,3 ,4 ,5
-/*this i++ means i = i +1 */
+/*this i++ means i = i +1 #1#
 
 
 
@@ -416,7 +417,7 @@ do
 {
  Console.WriteLine(i);
  i++;
-} while (i <= 5);*/
+} while (i <= 5);#1#
 
 // For Loop
 // This is used when you know the number of times you want to loop
@@ -424,12 +425,12 @@ do
 /*for (initialization, condition, update)
 {
   code to run
-}*/
+}#1#
 
 /*for (int i = 1; i <= 5; i++)
 {
  Console.WriteLine(i);
-}*/
+}#1#
 
 
 //For Barakah, Lekan , jumah use while loop to print 35-77 
@@ -443,14 +444,14 @@ do
  {
   Console.WriteLine(i);
  }
-}*/
+}#1#
 
 //Arrays 
 // Arrays is used to store multiple variables of same data type in one variable 
 
 /*int num1 = 10;
 int num2 = 20;
-int num3 = 30;*/
+int num3 = 30;#1#
 
 //int[] numbers = { 10, 20, 30 }; // array of numbers 
 
@@ -459,14 +460,14 @@ for (int i = 0; i < numbers.Length; i++)
 {
  Console.WriteLine(numbers[i]);
 }
-*/
+#1#
 
 /*
 string student1 = "Lekan";
 string student2 = "Mariam";
 string student3 = "Jumah";
 
-string[] students = { "lekan", "mariam", "muheeb", "fatimah", "Pedro", "barakah" };*/ // Array of students
+string[] students = { "lekan", "mariam", "muheeb", "fatimah", "Pedro", "barakah" };#1# // Array of students
 
 //Console.WriteLine($"Fatimah name to be printed\n..Printout result= {students[3]}"); // fatimah
 //Console.WriteLine($"Pedro name to be printed\n..Printout result= {students[4]}"); // pedro
@@ -486,7 +487,7 @@ for (int i = 0; i < students.Length; i++)
 {
  Console.WriteLine( students[i]);
 }
-*/
+#1#
 
 // Formatting to have student number 
 
@@ -495,7 +496,7 @@ for (int i = 0; i < students.Length; i++)
 /*for (int i = 0; i < students.Length; i++)
 {
  Console.WriteLine($"Student{i + 1} : {students[i]}");
-}*/
+}#1#
 
 // we acheived
 /*Student1 : lekan
@@ -503,7 +504,7 @@ Student2 : mariam
 Student3 : muheeb
 Student4 : fatimah
 Student5 : Pedro
-Student6 : barakah*/
+Student6 : barakah#1#
 
 
 
@@ -515,7 +516,7 @@ for (int i = 0; i < numbers.Length; i++)
 {
  Console.WriteLine(numbers[i]);
 }
-*/
+#1#
 
 // 10
 // 20
@@ -541,7 +542,7 @@ for (int i = 0; i < numbers.Length; i++)
     
 }
 
-Console.WriteLine($"Sum of all the numbers = {sum}");*/
+Console.WriteLine($"Sum of all the numbers = {sum}");#1#
 
 // Using Loop to multiply together
 /*int[] numb = { 2, 3, 4, 5, 6 };
@@ -552,7 +553,7 @@ for (int i = 0; i < numb.Length; i++)
 {
   mult = mult * numb[i];
 }
-Console.WriteLine($"Multiplication of all the numbers = {mult}");*/
+Console.WriteLine($"Multiplication of all the numbers = {mult}");#1#
 
 
 // Lets Build Multiplication table 
@@ -562,7 +563,7 @@ Console.WriteLine($"Multiplication of all the numbers = {mult}");*/
 for (int i = 1; i <= 12; i++)
 {
  Console.WriteLine($"{multiplicationTable} X {i} = {multiplicationTable * i}");
-}*/
+}#1#
 
 // 2 X 1 = 2
 // 2 X 2 = 4
@@ -628,4 +629,209 @@ else
 {
  Console.WriteLine("/////////Invalid pin, try again");
 }
+*/
+
+
+// March - 22- 2026
+
+//Console.WriteLine("Kindly enter your name");
+//string input = Console.ReadLine();
+
+//int userinput = int.Parse(Console.ReadLine());
+
+//decimal.TryParse();
+//bool.TryParse();
+//double.TryParse();
+
+
+/*if(int.TryParse(input, out _))
+{
+ Console.WriteLine("input is valid integer");
+}
+else
+{
+ Console.WriteLine("input is invalid integer");
+}*/
+
+// List and Dictionary
+
+ 
+// List : A list is a collection used to store multiple values of the same type in a single variable 
+// List a like a note pad where mutable(add, delete and update)
+
+//Example 
+
+//List<string> name = new List<string>();// old ways 
+
+/*
+var names = new List<string>(); // new ways 
+
+// Add student to the array 
+
+names.Add("Lakan");
+names.Add("Maryam");
+names.Add("Jumah");
+names.Add("Fatimah");*/
+
+//Console.WriteLine(names[2]);
+
+// To get all the values in the array
+
+/*foreach (var name in names)
+{
+ Console.WriteLine(name[1]);
+}*/
+
+// Remove values , removing "Lakan"
+
+/*names.Remove("Lakan");
+
+foreach (var name in names)
+{
+ Console.WriteLine(name);
+}*/
+
+// Update values 
+
+/*
+names[0] = "Ademola";
+
+foreach (var name in names)
+{
+ Console.WriteLine(name);
+}
+*/
+
+
+
+//Example comparing List with arrays;
+
+/*
+int[] nums = [5, 2, 4, 5, 6];
+
+nums[0] = 1;
+
+foreach (var num in nums)
+{
+ Console.WriteLine(num);
+}
+*/
+
+     // Difference Between Array and List
+// Array we have fixed-size collection , while for list we have dynamic-size for the collection.
+// Array is fixed when created , while List can grow or shrink dynamically.
+// for indexing Array[0], while list is List[0]
+// Array is not  flexible - size cannot change , for List we can add and remove 
+// Array we have length to check the array length, for List we have count, Contains, add , remove etc.
+//for array we use it when numbers of element is fixed and perfomance matter, for list we use this when number of element can change(we can also use inbuilt method)
+
+
+// Small Projects 
+// 0803 , 0703 , 0816 , 0813 , 0906 -- MTN
+// 0802 , 0808 , 0708 , 0812 , 0701 , 0901 -- Airtel
+// 0805 , 0807 , 0811 , 0815 , 0705 ,0905 ,0915. -- Glo
+
+
+// This projects tells user to input there phone number from the first four digit , it brings out the network the user is using;
+
+/*var MTN = new List<string> { "0803", "0703", "0816", "0813", "0906" };
+var Airtel = new List<string> {"0802","0808" ,"0708","0812","0701","0901"};
+var Glo = new List<string> {"0805","0807","0811","0815","0705","0905","0915"};
+
+bool running = true;
+
+while (running)
+{
+ Console.WriteLine("\n --- Network checker Menu----");
+ Console.WriteLine("1. Check Network");
+ Console.WriteLine("2. Exit");
+
+ string choice = Console.ReadLine();
+
+ switch (choice)
+ {
+  case "1" : 
+   Console.WriteLine("Enter phone number"); //  07037147031;
+   string phone = Console.ReadLine();
+   if ((phone.Length < 11) || (phone.Length > 11))
+   {
+    Console.WriteLine("Invalid phone number , number must be at least 11 digit");
+   }
+   
+   string prefix = phone.Substring(0, 4); // subsstring uses index o and we need length to be 4 this will be "0703"
+
+   if (MTN.Contains(prefix))
+   {
+    Console.WriteLine($"The number {phone} belongs to MTN");
+   }else if (Airtel.Contains(prefix))
+   {
+    Console.WriteLine($"The number {phone} belongs to Airtel");
+    
+   }else if (Glo.Contains(prefix))
+   {
+    Console.WriteLine($"The number {phone} belongs to Glo");
+   }
+   else
+   {
+    Console.WriteLine("Network operator not found");
+   }
+
+   break;
+  
+  case "2":
+   running = false;
+   Console.WriteLine("Exiting application ....");
+   break;
+  default:
+   Console.WriteLine("Invalid Choice, try again");
+   break;
+   
+ }
+
+}*/
+
+//  Dictionary 
+
+// A Dictionary stores data in key values and pair format 
+// Keys and Values :
+// Example , Animal is a Value :Cat is key 
+// Colour is a value , blue is a key 
+// Vehicle is a value , car is a key 
+
+//int age = 5;
+
+
+
+//Dictionary<int, string> students = new Dictionary<int  ,string>(); // Old ways 
+
+var students = new Dictionary<int, string>(); // new ways 
+
+// key = student Id
+// value = student name 
+
+// Example to Add
+
+students.Add(1, "Muheeb");
+students.Add(2, "Barakah");
+students.Add(3, "Jumah");
+
+/*
+foreach (var student in students  )
+{
+ Console.WriteLine($"Matric number:{student.Key} student name :{student.Value}");
+}*/
+
+students.Remove(2);
+
+foreach (var student in students  )
+{
+ Console.WriteLine($"Matric number:{student.Key} student name :{student.Value}");
+}
+
+// Difference between Dictionary and List
+// Dictionary uses Key(which the unique identifier ), while for List we use Index (0,1,2...)
+// Dictionary does not have or guarantee insertion order , List maintains insertion order
+// Dictionary key is unique(cant use same key for different values), for list we can have multiple duplicates
+// Dictionary uses key to values mapping , while list uses collection of items 
+
 
